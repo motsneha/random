@@ -1,0 +1,18 @@
+<appian-plugin name="ConnectionPlugins" key="com.persistent.plugins.connectionplugins">
+
+  <plugin-info>
+    <description>ConnectionPlugins</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>2.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+  <function key="connectToMongo" class="com.persistent.plugins.connectionplugins.ConnectToMongo"/>
+
+  <function key="insertToMongo" class="com.persistent.plugins.connectionplugins.InsertToMongo"/>
+
+  <function key="findInMongo" class="com.persistent.plugins.connectionplugins.FindInMongo"/>
+
+  <function key="removeFromMongo" class="com.persistent.plugins.connectionplugins.RemoveFromMongo"/>
+
+</appian-plugin>

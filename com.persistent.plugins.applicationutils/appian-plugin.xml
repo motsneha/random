@@ -1,0 +1,12 @@
+<appian-plugin name="com.persistent.plugins.applicationutils" key="com.persistent.plugins.applicationutils">
+
+  <plugin-info>
+    <description>com.persistent.plugins.applicationutils</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+  <function key="getCDTIdsByApplicationUUID" class="com.persistent.plugins.applicationutils.ApplicationUtil"/>
+
+</appian-plugin>

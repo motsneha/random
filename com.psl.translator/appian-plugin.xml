@@ -1,0 +1,12 @@
+<appian-plugin name="SmartTranslator" key="com.psl.translator">
+
+  <plugin-info>
+    <description>SmartTranslator</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+  <function key="translateTextToGivenLanguage" class="com.psl.translator.LanguageTranslatorImpl"/>
+
+</appian-plugin>
